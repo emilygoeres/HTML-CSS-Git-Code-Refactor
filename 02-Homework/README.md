@@ -1,36 +1,41 @@
 # 01 HTML CSS Git: Code Refactor
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities or socio-economic restrictions have access to their website, and helping them avoid litigation.
-
-Your task is to refactor an existing webpage to make it accessible. An important rule to follow when working with someone else's code is the Scout Rule:
-
-> Always leave the code you are editing a little cleaner than you found it.
-
-To impress clients, you should always go the extra mile and improve their codebase for long term sustainability. Ensure that all links are functioning correctly and clean up the CSS to make it more efficient, consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
-
 ## User Story
 
 ```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
+I was given and HTML template and a css template. Both the HTML and CSS the code is messy and some stuff can be combinded, some of the div's can be renamed. End result is, I need to take the proper steps to clean up the code.
 ```
 
-## Acceptance Criteria
+## What did I do for the HTML template 
+-placed the link to the style.css sheet to the bottom of the head
+-changed the div head opening tag to just a regular header tag
+-changed the div head closing tag to just a regular header tag
+-took out the div and added a section with an id of links
+-changed div class content to section with an id of hero
+-changed the div class closing tag to a closing section tag
+-div class benefit got changed to the section tag
+-div class benefit closing tag got changed to closing section tag
+-div class footer got changed to just footer
+-closing tag got changed to a closing footer tag
+
+
+
+
+
 
 ```
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
+
 ```
+## What did I do to the css file 
+-Added an ID of links
+-Combinded .benefit-lead, .benefit-brand, .benefit-cost
+-Combinded .benefit-lead h3, .benefit-brand h3,.benefit-cost h3
+-Combinded .benefit-lead img, .benefit-brand img,.benefit-cost img
+-Combinded .search-engine-optimization, .online-reputation-management, .social-media-marketing
+-Combinded .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img
+-Combinded .search-engine-optimization h2, .online-reputation-management h2,.social-media-marketing h2
+-Made <footer> its own tag
+
 
 ## Review
 
